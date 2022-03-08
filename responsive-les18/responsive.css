@@ -1,0 +1,49 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1{font-family: 'Sansita Swashed', cursive;
+    text-align: center;}
+h2{ margin-left: 5%;}
+h3{ margin-left: 1%;}
+h6{ text-align: center;
+    padding-top: 5%;}
+.col-12{ min-height: 200px;
+        background-image: url(https://i.pinimg.com/originals/10/d2/35/10d2353c3ebd71e3e496d42c2f655055.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgrey;}
+
+.col-2{ background-color: yellow;
+        min-height: 500px;
+        margin-left: auto;
+        margin-right: auto;}
+.col-9{ background-color: lightgreen;
+        min-height: 500px;
+        margin-left: auto;
+        margin-right: auto;}
+footer{ background-color: lightgrey;
+        min-height: 200px;
+        margin-left: auto;
+        margin-right: auto;}
+#alfa-1{ width: 15%; float: right; margin-left: 10px;}
+#alfa-2{ width: 20%; float: right; margin-left: 10px;}
+li{ padding: 10%;}
+article{ float: left;}
+.clr{ clear: both;}
+
+@media only screen and (max-width: 600px){ footer{ background-color: grey;}
+                                                  article{ float: none;}
+                                                  .col-2{ background-color: white;
+                                                          text-align: center;}}
